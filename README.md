@@ -1,8 +1,8 @@
 # Calculator
 
 ## Table of contents
-* [Installation](#installation)
 * [Project Motivation](#project-motivation)
+* [Requirement](#requirement)
 * [Setup](#setup)
 * [Code Examples](#code-examples)
 * [Features](#features)
@@ -11,11 +11,11 @@
 * [Acknowledgements](#acknowledgements)
  
 
-## Installation
-* Python - version 3.8
-
 ## Project Motivation
 The aim of the project is to build a simple python package with basic functions: add, subtract, multiply, divide and nth root. Also an ability to reset to zero.
+
+## Requirement
+* Python - version 3.8
 
 ## Setup
 - to use the package in your notebook:
@@ -35,11 +35,13 @@ calculator.divide(5)
 calculator.reset_memory()
 ```
 
-## Features: _functions_
-* Addition / Subtraction: _add / subtract_
-* Multiplication / Division: _multiply / divide_
-* Take (n) root of number: _take_root_
-* Memory of last result: _reset_memory_
+## Features:
+* Addition
+* Subtraction: 
+* Multiplication
+* Division: 
+* Take (n) root of number:
+* Memory of last result:
 
 ## License
 This project is licensed under the terms of the **MIT** [license](https://opensource.org/licenses/MIT).
