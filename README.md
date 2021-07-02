@@ -30,6 +30,8 @@ from calculator.calculator import Calculator
 calculator = Calculator()
 calculator.add(6)
 calculator.subtract(3)
+calculator.multiply(2)
+calculator.divide(5)
 calculator.reset_memory()
 ```
 

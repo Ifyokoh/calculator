@@ -11,7 +11,7 @@ setup(
   name='calculator',
   version='1.0',
   description='Calculator with basic functions: Add, Subtract, Multiply, Divide, Nth-root, ability to reset to 0',
-  url='add github repo',  
+  url='https://github.com/Ifyokoh/calculator',  
   author='Ifeoma Okoh',
   author_email='odibest1893@gmail.com',
   license='MIT', 
