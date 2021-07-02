@@ -20,7 +20,7 @@ The aim of the project is to build a simple python package with basic functions:
 ## Setup
 - to use the package in your notebook:
 ```python
-!pip install ....
+!pip install git+https://github.com/Ifyokoh/calculator.git
 
 from calculator.calculator import Calculator
 ```
