@@ -5,6 +5,7 @@
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
+*__pycache__/
 *.py[cod]
 *$py.class
 
@@ -27,7 +28,7 @@ var/
 wheels/
 share/python-wheels/
 *.egg-info/
-*.egg-info
+basic_calculator_101.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
@@ -145,14 +146,12 @@ cython_debug/
 
 ### VisualStudioCode ###
 .vscode/*
-.vscode
+.vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
-__pycache__
-
 # Local History for Visual Studio Code
 .history/
 
