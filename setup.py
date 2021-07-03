@@ -8,7 +8,7 @@ classifiers = [
  
 setup(
   name='basic-calculator-101',
-  version='1.2',
+  version='1.3',
   description='Calculator with basic functions: Add, Subtract, Multiply, Divide, Nth-root, ability to reset to 0',
   long_description=open('README.txt').read(),
   url='https://github.com/Ifyokoh/calculator',  

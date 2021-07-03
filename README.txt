@@ -6,7 +6,7 @@ Installation
 
 to use the package in your notebook:
 
-``!pip install pip install basic-calculator-101==1.2``
+``!pip install basic-calculator-101==1.3``
 
 ``from calculator.calculator import Calculator``
 
@@ -15,19 +15,10 @@ Usage
 --------
 
 - calculator = Calculator()
-- calculator.add(6)
-- calculator.subtract(3)
-- calculator.multiply(2)
-- calculator.divide(5)
-- calculator.reset_memory()
 
-
-Features:
-----------------
-
-- Addition
-- Subtraction: 
-- Multiplication
-- Division: 
-- Take (n) root of number:
-- Memory of last result:
+- Addition: calculator.add(6)
+- Subtraction: calculator.subtract(3)
+- Multiplication: calculator.multiply(2)
+- Division: calculator.divide(5)
+- Take (n) root of number: calculator.nth_root(16)
+- Memory of last result: calculator.reset_memory()

@@ -5,8 +5,8 @@ class CalculatorError(Exception):
 
 class Calculator():
 
-    def __init__(self) -> None:
-        self.memory = 0
+    def __init__(self, value=0) -> None:
+        self.memory = value
     
     def reset_memory(self):
         """Resets memory to zero."""
@@ -44,6 +44,6 @@ class Calculator():
     def _check_operand(self, operand):
         """Check that the operand is a number."""
         if not isinstance(operand, numbers.Number):
-            raise CalculatorError(f'"{operand}" was not a number')
+            raise CalculatorError(f'"{operand}" is not a number')
 
   
